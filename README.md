@@ -27,6 +27,20 @@ All environments are created using Vagrant, enabling consistent and repeatable i
 * WordPress
 * Linux Shell Scripting
 
+---
+
+## Architecture Overview
+
+<p align="center">
+  <img src="images/architecture-overview.png" alt="Infrastructure Architecture" width="1000">
+</p>
+
+<p align="center">
+  <em>High-level architecture of the Vagrant-based infrastructure automation projects included in this repository.</em>
+</p>
+
+---
+
 ## Projects Included
 
 ### 1. CentOS Apache Web Server Automation
@@ -93,22 +107,6 @@ Automated the deployment of a WordPress environment using Vagrant provisioning a
 
 ---
 
-## Architecture
-
-Host Machine
-│
-├── Vagrant
-│
-├── VirtualBox
-│
-└── Virtual Machines
-├── CentOS Stream 9
-│ └── Apache HTTP Server
-│
-└── Ubuntu Server
-├── LAMP Stack
-└── WordPress
-
 ## Getting Started
 
 ### Prerequisites
@@ -118,21 +116,28 @@ Host Machine
 
 ### Clone Repository
 
+```bash
 git clone <repository-url>
-
 cd infrastructure-automation-vagrant
+```
 
 ### Start Environment
 
+```bash
 vagrant up
+```
 
 ### Access Virtual Machine
 
+```bash
 vagrant ssh
+```
 
 ### Destroy Environment
 
+```bash
 vagrant destroy
+```
 
 ## Key Concepts Practiced
 
@@ -159,6 +164,6 @@ This repository was created as part of my DevOps learning journey to gain practi
 
 ## Author
 
-Eranga Kavishanka
+**Eranga Kavishanka**
 
 Software Engineering Undergraduate | DevOps & Cloud Enthusiast
