@@ -2,6 +2,20 @@
 
 A collection of hands-on DevOps and Infrastructure as Code (IaC) labs built using Vagrant and VirtualBox. This repository demonstrates automated virtual machine provisioning, Linux server administration, web server deployment, and application hosting through reproducible infrastructure configurations.
 
+
+## Architecture Overview
+
+<p align="center">
+  <img src="images/architecture.png" alt="Infrastructure Architecture" width="1000">
+</p>
+
+<p align="center">
+  <em>High-level architecture of the Vagrant-based infrastructure automation projects included in this repository.</em>
+</p>
+
+---
+
+
 ## Overview
 
 This repository contains beginner-level infrastructure automation projects designed to explore core DevOps concepts such as:
@@ -26,18 +40,6 @@ All environments are created using Vagrant, enabling consistent and repeatable i
 * PHP
 * WordPress
 * Linux Shell Scripting
-
----
-
-## Architecture Overview
-
-<p align="center">
-  <img src="images/architecture.png" alt="Infrastructure Architecture" width="1000">
-</p>
-
-<p align="center">
-  <em>High-level architecture of the Vagrant-based infrastructure automation projects included in this repository.</em>
-</p>
 
 ---
 
