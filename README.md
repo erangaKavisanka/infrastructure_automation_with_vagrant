@@ -32,7 +32,7 @@ All environments are created using Vagrant, enabling consistent and repeatable i
 ## Architecture Overview
 
 <p align="center">
-  <img src="images/architecture-overview.png" alt="Infrastructure Architecture" width="1000">
+  <img src="images/architecture.png" alt="Infrastructure Architecture" width="1000">
 </p>
 
 <p align="center">
